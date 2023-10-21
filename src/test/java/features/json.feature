@@ -1,8 +1,8 @@
-Feature: json feature 
+Feature: json feature
 
-Scenario: json parsing
- 
-* def jsonObject = 
+  Scenario: json parsing
+
+    * def jsonObject =
 """
 [
 {
@@ -18,14 +18,14 @@ Scenario: json parsing
 ]
 """
 
-* print jsonObject
-* print jsonObject[1]
-* print jsonObject[1].name + jsonObject[1].Age
+    * print jsonObject
+    * print jsonObject[1]
+    * print jsonObject[1].name + jsonObject[1].Age
 
 
-Scenario: json parsing complex
- 
-* def jsonObject = 
+  Scenario: json parsing complex
+
+    * def jsonObject =
 """
 {"menu": {
   "id": "file",
@@ -40,11 +40,11 @@ Scenario: json parsing complex
 }}
 """
 
-* print jsonObject
-* print jsonObject.menu
-* print jsonObject.menu.id
-* print jsonObject.menu.popup
-* print jsonObject.menu.popup.menuitem
-* print jsonObject.menu.popup.menuitem[0].value
-* print jsonObject.menu.popup.menuitem[0].onclick
+    * print jsonObject
+    * print jsonObject.menu
+    * print jsonObject.menu.id
+    * print jsonObject.menu.popup
+    * print jsonObject.menu.popup.menuitem
+    * print jsonObject.menu.popup.menuitem[0].value
+    * print jsonObject.menu.popup.menuitem[0].onclick
 
