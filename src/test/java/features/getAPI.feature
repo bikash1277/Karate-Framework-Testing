@@ -1,9 +1,9 @@
 Feature: get API
 
   Scenario: get user details
-#    Given url baseUrl+'/public/v2/users'
-	Given url 'https://gorest.co.in/public/v2/users'
-    And path '5405539'
+    Given url baseUrl+'/public/v2/users'
+#	Given url 'https://gorest.co.in/public/v2/users'
+    And path '5437561'
     When method GET
     Then status 200
 #	* print response

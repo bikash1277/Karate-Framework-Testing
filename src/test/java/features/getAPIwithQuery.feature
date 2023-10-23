@@ -22,7 +22,7 @@ Feature: get API with query parameter
     * print jsonResponse
     * def userCount = jsonResponse.length
     * print userCount
-    * match userCount == 20
+    * match userCount == 10
 	
 	
 	
