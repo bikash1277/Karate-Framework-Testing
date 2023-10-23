@@ -203,8 +203,8 @@ Feature: To test the updation of Job entry in the test application
     * def projectArray = karate.jsonPath(response, "$[?(@.jobId == " + postRequest.id + ")].project")
     And print projectArray
     And match projectArray[0] == '#[2]'
-    
-    Scenario: To update the Job Entry for exiting job in JSON format by calling another feature file with variables
+
+  Scenario: To update the Job Entry for exiting job in JSON format by calling another feature file with variables
     # <Gherkin keyword> <call> <read(<location of file>)>
     #Given call read("../createJobEntry.feature") { var1:value, var2:value }
     * def getRandomValue = function() {return Math.floor((100) * Math.random());}

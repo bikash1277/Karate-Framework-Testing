@@ -19,8 +19,6 @@ X
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 W
-'src/test/java/runner/APITestRunner.java,4\e\4e4aabed11008ffe04e7fd13026e1230bb1cd502
-W
 'src/test/java/features/PostJson.feature,3\c\3c593136a0dc724f081831163b405fa91fb993bb
 S
 #src/test/java/features/user.feature,8\f\8fae473b35750b889fdf3ace26ba1048b59d1694
@@ -34,5 +32,13 @@ V
 &src/test/java/features/PostAPI.feature,b\4\b4a0d5a2f75465bb19a57891fe34c012a45c9bc8
 V
 &src/test/java/features/Country.feature,b\3\b37ea50ad229b017fbde9941bacf234ee6a9ca2c
-T
-$src/test/java/runner/TestRunner.java,1\8\18b3e1953776f096053d202d655721ec032799e7
+Y
+)src/test/java/features/randomMail.feature,8\6\86e65ff559b51108ebeef7c125c329f5cbfa3b30
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+V
+&src/test/java/features/TestRunner.java,b\c\bcb988ab668b714c9e66a71d3c15a7d3732adfff
+X
+(src/test/java/features/deleteAPI.feature,f\7\f786bb80e0e19a1e91ebe8aadc6a91c6de60c2a3
+S
+#src/test/java/features/json.feature,a\d\add51fcb82160515eac9f2b5568f17e473fb0021

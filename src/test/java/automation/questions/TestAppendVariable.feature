@@ -5,7 +5,7 @@ Feature: To test append of variable
     #When method get
     #Then status 200
 
-    Examples: 
+    Examples:
       | param |
       | foo   |
       | bar   |

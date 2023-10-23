@@ -33,4 +33,4 @@ Feature: Write res
         return jd.saveJson(arg);  
       }
       """
-      * call saveJsonToFile inputJson
+    * call saveJsonToFile inputJson

@@ -10,6 +10,6 @@ Feature: check return users by API
     And param gender = 'male'
     When method get
     Then status 200
-	
-	And def userResponse = response
-	Then match userResponse.result[*].name contains ["Bilva"]
+
+    And def userResponse = response
+    Then match userResponse.result[*].name contains ["Bilva"]

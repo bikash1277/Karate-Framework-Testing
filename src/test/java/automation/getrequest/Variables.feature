@@ -18,7 +18,7 @@ Feature: Variables Creation in Karate Framework
     * def var_int_2 = var_int + 10
     And print "New Variable ==> ", var_int_2
     And print "BackGroud Section Variabel ==> ", app_name , page_lode_timeout
-    
+
 
   Scenario: Acces the Variable
     * def var_int = 1

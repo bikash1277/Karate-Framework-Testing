@@ -1,5 +1,5 @@
 @ignore
 Feature: re-usable feature to print value
 
-  Scenario: 
+  Scenario:
     * def var1 = { name: '#(name)' }

@@ -43,6 +43,6 @@ Feature: Deep search a key in the array
       ]
         }
       """
-      * def query1 = karate.jsonPath(jsonData,"$.dataSourceAttributes[?(@.attributesSourceMapping[3] == \"firstName\")]")
-      * print query1
+    * def query1 = karate.jsonPath(jsonData,"$.dataSourceAttributes[?(@.attributesSourceMapping[3] == \"firstName\")]")
+    * print query1
       

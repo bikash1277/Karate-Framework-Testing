@@ -5,7 +5,7 @@ Feature: scenario outline using a dynamic example generator function
     * def var2 = <expression>
     * print 'After Expression Evaluation ',var2
 
-    Examples: 
+    Examples:
       | name                    | expression!                          |
       | 'As simple Variable'    | var1                                 |
       | 'As inline JSON Object' | { country: '#(var1)', active: 'No' } |
@@ -23,7 +23,7 @@ Feature: scenario outline using a dynamic example generator function
     * def var2 = <expression>
     * print 'After Expression Evaluation ',var2
 
-    Examples: 
+    Examples:
       | name                    | expression!                          |
       | 'As simple Variable'    | var1                                 |
       | 'As inline JSON Object' | { country: '#(var1)', active: 'No' } |

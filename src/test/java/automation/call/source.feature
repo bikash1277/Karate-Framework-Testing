@@ -1,6 +1,6 @@
 Feature: To create job description in the test application <a>
 
-  Background: 
+  Background:
     * print "====> Hello"
 
   Scenario Outline: Print the passed information
@@ -8,5 +8,5 @@ Feature: To create job description in the test application <a>
     * def customJson = { "caseTypeID":"O7QYDY-TravelSe-Work-BizTravel", "content": '#(__row)'  }
     * print "JSON Object ===> ", customJson
 
-    Examples: 
+    Examples:
       | read('../JsonResponse.json') |

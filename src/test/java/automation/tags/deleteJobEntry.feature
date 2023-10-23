@@ -4,7 +4,7 @@ Feature: To test the delete end point
   Background: Create and Initialize base Url
     Given url 'http://localhost:9898'
 
-@Smoke
+  @Smoke
   Scenario: To delete the job entry from application using job id
     # Create a new Job entry
     # Delete the newly created job entry
@@ -24,7 +24,7 @@ Feature: To test the delete end point
     When method get
     Then status 404
 
-@Regression
+  @Regression
   Scenario: To delete the job entry from application using job id and delete the job entry twice
     # Create a new Job entry
     # Delete the newly created job entry

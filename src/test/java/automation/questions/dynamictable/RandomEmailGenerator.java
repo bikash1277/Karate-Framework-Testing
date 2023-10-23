@@ -3,10 +3,10 @@ package automation.questions.dynamictable;
 import java.util.Random;
 
 public class RandomEmailGenerator {
-	
-	public String getRamdomEmail() {
-		Random randomNumber = new Random(10000);
-		return "bill.gates" + randomNumber.nextInt() + "@microsoft.com";
-	}
+
+    public String getRamdomEmail() {
+        Random randomNumber = new Random(10000);
+        return "bill.gates" + randomNumber.nextInt() + "@microsoft.com";
+    }
 
 }

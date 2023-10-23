@@ -39,6 +39,7 @@ public class TestRunner {
     public Karate headerAPITest() {
         return Karate.run("header").relativeTo(getClass());
     }
+
     @Karate.Test
     public Karate getAPIWithQueryTest() {
         return Karate.run("getAPIwithQuery").relativeTo(getClass());

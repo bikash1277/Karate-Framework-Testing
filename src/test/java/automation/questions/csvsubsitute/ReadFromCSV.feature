@@ -6,5 +6,5 @@ Feature: scenario outline using CSV substution
     * def jObj = { Fname: '<name>', tradeNumber: '#(uniqueID())' }
     * print "===> ", jObj
 
-    Examples: 
+    Examples:
       | read('./Data.csv') |

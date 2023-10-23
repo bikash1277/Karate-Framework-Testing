@@ -9,11 +9,11 @@ Feature: To create job description in the test application
     When print '<method>'
     And print '<status>'
 
-    Examples: 
+    Examples:
       | url                   | path               | method | status |
-      | http://localhost:9898 | /normal/webapi/all | get    |    200 |
-      | http://localhost:9898 | /normal/webapi/add | post   |    201 |
-      | http://localhost:9898 | /normal/webapi/add | put    |    201 |
+      | http://localhost:9898 | /normal/webapi/all | get    | 200    |
+      | http://localhost:9898 | /normal/webapi/add | post   | 201    |
+      | http://localhost:9898 | /normal/webapi/add | put    | 201    |
 
   Scenario Outline: Data Driven for the job description entry - <jobId>
     Given url 'http://localhost:9898'
@@ -23,11 +23,11 @@ Feature: To create job description in the test application
     When method post
     And status <status>
 
-    Examples: 
+    Examples:
       | jobId | jobTitle          | jobDescription                 | status |
-      |  9980 | Software Engg - 2 | To develop andriod application |    201 |
-      | id    | Software Engg - 2 | To develop andriod application |    400 |
-      | false | Software Engg - 2 | To develop andriod application |    400 |
+      | 9980  | Software Engg - 2 | To develop andriod application | 201    |
+      | id    | Software Engg - 2 | To develop andriod application | 400    |
+      | false | Software Engg - 2 | To develop andriod application | 400    |
 
   Scenario Outline: Data Driven for the job description entry using csv files - <jobId>
     Given url 'http://localhost:9898'

@@ -62,8 +62,8 @@ Feature: To create the Job entry in the application
     And status 201
     And print response
     And match response.jobTitle == "Software Engg - 2"
-    
-    Scenario: To create the Job Entry using XML request body formt with embedded expression
+
+  Scenario: To create the Job Entry using XML request body formt with embedded expression
     Given path '/normal/webapi/add'
     * def getJobID = function() {return Math.floor((100) * Math.random());}
     * def jobID = getJobID()

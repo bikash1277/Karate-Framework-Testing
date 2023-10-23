@@ -13,7 +13,7 @@ Feature: To test the get end point of the application
     #Then status 201 # the status code response should be 200
     Then status 200 # the status code response should be 200
 
-@ignore
+  @ignore
   Scenario: To get all the data from application in JSON format using path variable
     #Given url 'http://localhost:9898'
     And path '/normal/webapi/all'

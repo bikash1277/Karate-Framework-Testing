@@ -8,5 +8,5 @@ Feature: scenario outline using CSV substution
     * print "JSON Body:",jObj
     * print "[After] Empty Value:",newValue
 
-    Examples: 
+    Examples:
       | read('./DataWithEmpty.csv') |

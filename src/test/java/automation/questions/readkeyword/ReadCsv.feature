@@ -1,19 +1,19 @@
 Feature: To read the csv file and use in the scenario
 
-  Background: 
+  Background:
     * def generator = read('testdata.csv')
 
   Scenario: Print the first record from CSV data
   # Access all data
-  * print generator
+    * print generator
   # Access single recod
-  * print generator[0]
+    * print generator[0]
   # Access a property from single recod
-  * print generator[0].email
-  
-  
+    * print generator[0].email
+
+
   Scenario: Print the second record from CSV data
   # Access single recod
-  * print generator[1]
+    * print generator[1]
   # Access a property from single recod
-  * print generator[1].email
+    * print generator[1].email
